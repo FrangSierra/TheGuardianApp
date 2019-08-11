@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="article_detail_image_height">216dp</dimen>
+    <dimen name="article_detail_loading_progress_bar_size">40dp</dimen>
+    <dimen name="article_detail_text_margin">16dp</dimen>
+    <dimen name="article_list_item_headline_margin">4dp</dimen>
+    <dimen name="article_list_item_thumnail_size">40dp</dimen>
+    <dimen name="article_list_item_thumnail_margin">16dp</dimen>
+    <dimen name="error_layout_margin">16dp</dimen>
+</resources>

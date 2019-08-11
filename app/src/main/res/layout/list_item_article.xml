@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/article_thumbnail_imageview"
+        android:layout_width="@dimen/article_list_item_thumnail_size"
+        android:layout_height="@dimen/article_list_item_thumnail_size"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="@dimen/article_list_item_thumnail_margin"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/article_headline_textview"
+        style="@style/ArticlesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/article_list_item_headline_margin"
+        android:layout_toEndOf="@id/article_thumbnail_imageview"
+        android:textColor="@color/black"
+        tools:text="How sea otters help save the planet" />
+
+    <TextView
+        android:id="@+id/article_date_textview"
+        style="@style/Article.Text.Detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/article_headline_textview"
+        android:layout_toEndOf="@id/article_thumbnail_imageview"
+        tools:text="11/07/2016" />
+</RelativeLayout>
