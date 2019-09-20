@@ -1,4 +1,4 @@
-# Monzo Code Test for Android Engineers
+# Code Test for Android Engineers
 
 <img src="The_Guardian.png" width="100%" />
 
